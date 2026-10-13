@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ES">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,17 +12,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <style>
         html {
-        background-color: #F8F2EC;
+            background-color: #F8F2EC;
         }
+
         body {
-        background-color: #F8F2EC;
-        min-height: 100vh;
+            background-color: #F8F2EC;
+            min-height: 100vh;
         }
+
         main article h2 {
-        font-size: 1rem;
+            font-size: 1rem;
         }
     </style>
 </head>
+
 <body class="container" id="arriba">
     <header>
         <nav>
@@ -38,42 +42,38 @@
         <form name="contacto" method="post" action="contacta.php">
             <p>
                 <label for="nombre"><strong>Nombre*:</strong></label>
-                <input type="text" id="nombre" name="nombre" maxlength="100" 
-                placeholder="nombre y apellidos" required autofocus>
+                <input type="text" id="nombre" name="nombre" maxlength="100" placeholder="nombre y apellidos" required
+                    autofocus>
             </p>
 
             <p>
                 <label for="dni"><strong>DNI:</strong></label>
                 <input type="text" id="dni" name="dni" maxlength="10" pattern="[0-9]{8}[A-Za-z]"
-                title="Introduce 8 números seguidos de una letra, sin espacios ni guiones"> 
+                    title="Introduce 8 números seguidos de una letra, sin espacios ni guiones">
             </p>
 
             <p>
                 <label for="correo"><strong>Correo electrónico*:</strong></label>
-                <input type="email" id="correo" name="correo" maxlength="100" 
-                placeholder="ejemplo@dominio.com" required>
+                <input type="email" id="correo" name="correo" maxlength="100" placeholder="ejemplo@dominio.com"
+                    required>
             </p>
 
             <p>
                 <label for="edad"><strong>Edad*:</strong></label>
-                <input type="number" id="edad" name="edad" min="18" max="100" 
-                placeholder="18 - 99" required>  
+                <input type="number" id="edad" name="edad" min="18" max="100" placeholder="18 - 99" required>
             </p>
 
             <fieldset>
                 <legend>¿Cuántas tazas de café tomas al día?</legend>
 
                 <p>
-                    <input type="radio" id="consumo1" name="consumo"
-                    value="1-2" checked>
+                    <input type="radio" id="consumo1" name="consumo" value="1-2" checked>
                     <label for="consumo1">1-2 tazas</label>
-                
-                    <input type="radio" id="consumo2" name="consumo"
-                    value="2-5">
+
+                    <input type="radio" id="consumo2" name="consumo" value="2-5">
                     <label for="consumo2">2-5 tazas</label>
-                
-                    <input type="radio" id="consumo3" name="consumo"
-                    value="mas-de-5">
+
+                    <input type="radio" id="consumo3" name="consumo" value="mas-de-5">
                     <label for="consumo3">Más de 5</label>
                 </p>
             </fieldset>
@@ -102,13 +102,12 @@
 
             <p>
                 <label for="color">Tu color de taza favorito:</label>
-                <input type="color" id="color-taza" name="color-taza"
-                value="#8B4513">
+                <input type="color" id="color-taza" name="color-taza" value="#8B4513">
             </p>
 
             <p>
                 <label for="fecha-taller">
-                ¿Cuándo te gustaría hacer un taller para aprender a preparar café por goteo? (máx. 1 año)
+                    ¿Cuándo te gustaría hacer un taller para aprender a preparar café por goteo? (máx. 1 año)
                 </label>
 
                 <input type="date" id="fecha-taller" name="fecha-taller" min="2026-10-13" max="2027-10-13">
@@ -116,8 +115,7 @@
 
             <p>
                 <label for="origen">¿Cómo nos has encontrado?</label>
-                <input type="text" id="origen" name="origen"
-                maxlength="50" list="sugerencias">
+                <input type="text" id="origen" name="origen" maxlength="50" list="sugerencias">
             </p>
 
             <datalist id="sugerencias">
@@ -130,7 +128,7 @@
             <p>
                 <label for="comentarios">Comentario:</label>
                 <textarea id="comentarios" name="comentarios" rows="4" maxlength="200"
-                placeholder="máximo 200 caracteres"></textarea>
+                    placeholder="máximo 200 caracteres"></textarea>
             </p>
 
             <p><strong>(Los campos con asterisco (*) son obligatorios)</strong></p>
@@ -157,4 +155,5 @@
         </nav>
     </footer>
 </body>
+
 </html>
