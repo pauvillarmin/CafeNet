@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe.net</title>
+    <meta name="author" content="Pau">
+    <meta name="description" content="Web sobre el café, sus variedades y métodos de preparación.">
+    <meta name="theme-color" content="#F8F2EC">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.orange.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        html {
+        background-color: #F8F2EC;
+        }
+        body {
+        background-color: #F8F2EC;
+        min-height: 100vh;
+        }
+        main article h2 {
+        font-size: 1rem;
+        }
+    </style>
+</head>
+<body class="container" id="arriba">
+    <header>
+        <nav>
+            <img src="img/logo_cafenet.png" alt="Logo de Cafe.net">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="variedades.html">Variedades</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="contacta.html">Contacta</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <article>
+            <h2>Youtube</h2>
+            <iframe width="340" height="200" src="https://www.youtube.com/embed/b7h2mGGIUMw?si=XfKaIRqhgUE96LU4" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+            gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
+       </article>
+
+       <article>
+            <h2>Video Descargado</h2>
+            <video width="340" controls autoplay muted loop>
+                <source src="videos/cafe.mp4" type="video/mp4">
+                <source src="videos/cafe.ogv" type="video/ogg">Tu navegador no admite este vídeo.
+            </video>
+        </article>
+
+        <article>
+            <h2>Google Maps</h2>
+            <iframe width="340" height="200" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28342.62784304267!2d-74.05859227054881!3d4.649097108783477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a5d31902eeb%3A0x131d4b1896ec9212!2sFederaci%C3%B3n%20Nacional%20de%20Cafeteros%20de%20Colombia!5e0!3m2!1ses!2ses!4v1791841951129!5m2!1ses!2ses" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </article>
+
+        <article class="overflow-auto">
+            <h2>Meteorología</h2>
+            <iframe src="https://api.wo-cloud.com/content/widget/?geoObjectKey=8078301&language=es&region=ES&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius" 
+            name="CW2" scrolling="no" width="318" height="318" frameborder="0" 
+            style="border: 1px solid #10658E;border-radius: 8px"></iframe>
+        </article>
+
+        <article>
+            <h2>Calendario de eventos</h2>
+            <iframe src="https://calendar.google.com/calendar/embed?src=d8d2f555d7b196e0c34ea63e74dbcf094747c14944f9ff982c2b93b9a7429107%40group.calendar.google.com&amp;ctz=Europe%2FMadrid&amp;hl=es&amp;mode=MONTH"
+                title="Calendario de eventos de Cafe.net" style="border: 0; width: 100%;" height="400">
+            </iframe>
+        </article>
+
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><strong>Cafe.net</strong></li>
+            </ul>
+
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="variedades.html">Variedades</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="contacta.html">Contacta</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

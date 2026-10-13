@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe.net</title>
+    <meta name="author" content="Pau">
+    <meta name="description" content="Web sobre el café, sus variedades y métodos de preparación.">
+    <meta name="theme-color" content="#F8F2EC">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.orange.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        html {
+        background-color: #F8F2EC;
+        }
+        body {
+        background-color: #F8F2EC;
+        min-height: 100vh;
+        }
+    </style>
+</head>
+<body class="container" id="arriba">
+    <header>
+        <nav>
+            <img src="img/logo_cafenet.png" alt="Logo de Cafe.net">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="variedades.html">Variedades</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="contacta.html">Contacta</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <h1>Tipos de café</h1>
+       <nav>
+            <ul>
+                <li><a href="#arabica">Arábica</a></li>
+                <li><a href="#robusta">Robusta</a></li>
+                <li><a href="#caracolillo">Caracolillo</a></li>
+                <li><a href="#cultivos">Cultivos</a></li>
+            </ul>
+        </nav>
+
+        <section id="cards" class="grid">
+            <article id="arabica">
+                <h2><img src="img/grano.svg" alt="" width="30">Café Arábica</h2>
+                <p>El cafeto arábico (Coffea arabica) es un arbusto de la familia de las rubiáceas nativo de Etiopía o Yemen; 
+                    es la principal especie cultivada para la producción de café (obtenido a partir de las semillas tostadas) y la de mayor antigüedad en agricultura,
+                    datándose su uso a finales del primer milenio en la península arábiga.
+                </p>
+                <a href="#arriba">Ir arriba</a>
+            </article>
+
+            <article id="robusta">
+                <h2><img src="img/grano.svg" alt="" width="30">Café Robusta</h2>
+                <p>Es una especie de café originaria del África Occidental. 
+                    Crece sobre todo en África y en Brasil, donde se conoce con el nombre de Conillon. 
+                    También se halla en el sureste asiático, donde los colonialistas franceses introdujeron el cultivo en Vietnam a fines del siglo XIX. 
+                    Es más fácil de cuidar que Coffea arabica y más barato de producir teniendo un precio de mercado internacional por debajo del valor del dólar.
+                </p>
+                <a href="#arriba">Ir arriba</a>
+            </article>
+
+            <article id="caracolillo">
+                <h2><img src="img/grano.svg" alt="" width="30">Café Caracolillo</h2>
+                <p>El café caracolillo (o peaberry) no es una variedad botánica de la planta, sino una mutación natural 
+                    en la que la cereza del café desarrolla un solo grano redondo y compacto en lugar de los dos habituales. 
+                    Esto ocurre solo en un 5% a 10% de la cosecha total.
+                </p>
+                <a href="#arriba">Ir arriba</a>
+            </article>
+
+            <article id="cultivos" class="overflow-auto">
+                <h2><i class="fa-solid fa-table"></i> Cultivos</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th rowspan="2">Tipo</th>
+                            <th colspan="2">Superficie cultivo</th>
+                        </tr>
+                        <tr>
+                            <th>Secano</th>
+                            <th>Regadío</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Arábica</td>
+                            <td>25Ha</td>
+                            <td>25Ha</td>
+                        </tr>
+                        <tr>
+                            <td>Robusta</td>
+                            <td>50Ha</td>
+                            <td>25Ha</td>
+                        </tr>
+                        <tr>
+                            <td>Caracol</td>
+                            <td>25Ha</td>
+                            <td>50Ha</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#arriba">Ir arriba</a>
+            </article >
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><strong>Cafe.net</strong></li>
+            </ul>
+
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="variedades.html">Variedades</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="contacta.html">Contacta</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
